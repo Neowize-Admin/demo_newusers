@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <title>NeoWize</title>
+    <link href="./NeoWize_files/css" rel="stylesheet">
+    <link rel="stylesheet" href="./NeoWize_files/styles.css">
+
+    <!--
+    All of thses included in site_all.js:
+    <script src="./NeoWize_files/jquery-1.12.4.min.js"></script>
+    <script src="./NeoWize_files/jquery.scrollTo.min.js"></script>
+    <script src="./NeoWize_files/jquery.localScroll.min.js"></script>
+    <script src="./NeoWize_files/jquery.waypoints.js"></script>
+    <script src="./NeoWize_files/jquery.waypoints-inview.js"></script>
+    -->
+
+    <script src="./NeoWize_files/site_all.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div id="wrapper">
+        <header id="header">
+            <div class="container">
+                <strong class="logo"><a href="#">NeoWize</a></strong>
+
+
+                <!-- top navbar -->
+                <nav class="nav-bar">
+
+                    <ul class="login-btns">
+                        <!-- NeoSet: call-to-action top-right button (in navbar) -->
+                        <!--<li><a class="btn-signup" href="#">Start Today!</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </header><!-- header -->
+
+        <div id="header-placeholder"></div>
+            <section class="intro">
+            <div class="container">
+                <!-- NeoSet: main title (huge) -->
+                <h1 style="font-size: 55px; line-height: 58px; font-family: 'Arial Black', Gadget, sans-serif">Stop personalizing only small parts of your store</h1>
+
+                <!-- NeoSet: smaller title, above main form -->
+                <p style="">Give your users a fully personalized experience.</p>
+
+                <div class="signup-form ">
+                    <form id="signup-form" onsubmit="return neowizeSubmitSignup() && false;">
+
+                        <div class="input-holder">
+                            <input type="text" class="form-control" placeholder="Your website" name="website" id="site-input" required>
+                        </div>
+
+                        <div class="input-holder">
+                            <input type="email" class="form-control" placeholder="Your email" name="email" id="email-input" required>
+                        </div>
+
+                        <footer>
+                            <!-- NeoSet: call-to-action main button (in form, after site and email) -->
+                            <input type="submit" value="START TODAY" class="btn" style="">
+
+                            <!-- NeoSet: thank you message -->
+                            <p id="thank-you" style="display: none; block;color: #3efb94;font-size: 120%;">Thank you for submitting your request, we will send you a demo soon!</p>
+
+                            <!-- NeoSet: small text right under the call-to-action button, in the signup form -->
+                            <p>1-Min setup, no integrations.</p>
+                        </footer>
+                    </form>
+                </div><!-- signup-form -->
+            </div><!-- container -->
+        </section><!-- intro -->
+        <header class="heading">
+            <div class="container">
+
+                <!-- NeoSet: text inside the grey strip, under the signup form -->
+                <h2>NeoWize will personalize the entire sort order of all your categories.</h2>
+            </div>
+        </header><!-- / heading -->
+
+
+        <footer id="footer" class="inverse" style="background: rgba(34, 34, 41, 0);">
+            <div class="container">
+                <h3>Say Hello</h3>
+                <p>For any feedback, questions or other requests contact us at</p>
+                <ul class="list">
+                    <li><a href="mailto:info@neowize.com" class="ico-mail">info@neowize.com</a></li>
+                    <li><a href="tel:+1-925-392-5925" class="ico-tel">+1-925-392-5925</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div><!-- wrapper -->
+
+</body>
+</html>
