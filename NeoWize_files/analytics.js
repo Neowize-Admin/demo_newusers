@@ -45,7 +45,7 @@ catch (e) {
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     }
     // newusers.neowize.com
-    else if (location.host == "guarantee.neowize.com") {
+    else if (location.host == "newusers.neowize.com") {
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:607871,hjsv:5};
@@ -56,7 +56,7 @@ catch (e) {
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     }
     // easyintegration.neowize.com
-    else if (location.host == "guarantee.neowize.com") {
+    else if (location.host == "easyintegration.neowize.com") {
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:607875,hjsv:5};
@@ -67,7 +67,7 @@ catch (e) {
         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
     }
     // categorysort.neowize.com
-    else if (location.host == "guarantee.neowize.com") {
+    else if (location.host == "categorysort.neowize.com") {
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:607877,hjsv:5};
